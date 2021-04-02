@@ -373,6 +373,9 @@ class Writer:
             return ",".join(genotype_alleles)
 
     def _compute_genotype(self, ref, alt, genotype):
+        print(ref)
+        print(alt)
+        print(genotype)
         alleles = [ref]
 
         if self._snps.phased:
